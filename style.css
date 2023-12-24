@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: url(./scale_1200.jpg);
+  background-size: cover;
+}
+
+#noButton {
+  position: absolute;
+  margin-left: 150px;
+  transition: 0.5s;
+}
+
+#yesButton {
+  position: absolute;
+  margin-right: 150px;
+}
+
+.header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: azure;
+  color: midnightblue;
+  padding: 15px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+.yes {
+  background: url(./Screenshot_21.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
