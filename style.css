@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background: url(./scale_1200.jpg);
+  background: url(./img/scale_1200.jpg);
   background-size: cover;
 }
 
@@ -46,10 +46,11 @@ body {
   font-size: 16px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .yes {
-  background: url(./Screenshot_21.png);
+  background: url(./img/Screenshot_21.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
