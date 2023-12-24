@@ -5,6 +5,8 @@ body {
   height: 90vh;
   background: url(./img/scale_1200.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #noButton {
